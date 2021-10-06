@@ -1,0 +1,27 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "Blog para meu aprendizado em node, express, mysql, sequelize e ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RianVitor26/blog-node.git"
+  },
+  "author": "Rianvitor26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RianVitor26/blog-node/issues"
+  },
+  "homepage": "https://github.com/RianVitor26/blog-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
