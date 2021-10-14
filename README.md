@@ -25,3 +25,7 @@ Conhecer o server-side e aprender os passos para fazer um blog simples
 8. criar um arquivo para para os posts
 9. criar um model para o post na pasta models
 10. criar as views com extenção ejs
+11. criar o html usando ejs para poder reutilizar certas partes do código
+12. criar um arquivo mysql
+13. fazer a conexão do database com o server
+

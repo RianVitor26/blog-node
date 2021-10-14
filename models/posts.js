@@ -1,6 +1,8 @@
+// Config o banco de dados com o sequelize
 const { Sequelize, DataTypes } = require('sequelize')
 const connections = require('../database/connections.js')
 
+// Definindo um model para o post
 const Posts = connections.define('post', {
     id: {
         type: DataTypes.INTEGER,
