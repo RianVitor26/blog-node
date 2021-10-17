@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize')
-const connections = new Sequelize('connections', 'root', 'Rvsa20020326', {
+const connections = new Sequelize('connections', 'root', 'olamysql', {
     host: 'localhost',
-    dialect: 'mysql'
+    dialect: 'mysql',
+    storage: 'blog.myd'
 })
 
 module.exports = connections

@@ -1,0 +1,15 @@
+.navigation-wrapper{
+    background: pink;
+}
+
+.navigation{
+    justify-content: space-evenly;
+}
+
+.navigation-logo{
+    width: 20vw;
+}
+
+input[type="text"]{
+
+}
