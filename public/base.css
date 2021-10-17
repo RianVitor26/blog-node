@@ -2,6 +2,7 @@
 
 :root{
     --background: #f1f8e9;
+    --navigation-top-link-hover: #3949ab;
 }
 
 *{
@@ -12,6 +13,7 @@
     font-weight: 600;
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 
 body{
@@ -26,4 +28,8 @@ body{
     to{
         opacity: 1;
     }
+}
+
+.flex{
+    display: flex;
 }
