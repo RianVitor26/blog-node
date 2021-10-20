@@ -6,14 +6,19 @@
 
 .navigation-top-logo{
     width: 20vw;
+    min-width: 150px;
 }
 
 .navigation-top-list li{
-    margin-right: 50px;
+    margin: 0 20px;
 }
 
-.navigation-top-list a{
-    font-size: 1.3vw;
+.navigation-top-list a,
+::placeholder,
+.card-description,
+input[type="text"],
+.copyright{
+    font-size: clamp(.7rem, 1.3vw, 3rem);
 }
 
 .navigation-top-list a:hover{
@@ -21,9 +26,11 @@
 }
 
 input[type="text"]{
-    padding: 7px;
+    padding: 1vh 1vw;
+    height: 8vh;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     outline-color: rgba(0, 0, 0, 0.6);
-    width: 20vw;
+    width: 30vw;
 }
+
