@@ -16,6 +16,7 @@
 .navigation-top-list a,
 ::placeholder,
 .card-description,
+.navigation-bot .description,
 input[type="text"],
 .copyright{
     font-size: clamp(.7rem, 1.3vw, 3rem);

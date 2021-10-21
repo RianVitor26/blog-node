@@ -2,7 +2,8 @@
 
 :root{
     --background: #f1f8e9;
-    --navigation-top-link-hover: #3949ab;
+    --background-footer: #01579b;
+    --navigation-top-link-hover: #01579b;
 }
 
 *{
