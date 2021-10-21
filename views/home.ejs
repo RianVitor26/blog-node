@@ -1,6 +1,56 @@
 <!-- Extendendo o html -->
 <%- include('includes/head.ejs') %>
 
-<p>Home</p>
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="/home.css">
+
+<div class="container flex">
+    <div class="image-wrapper flex">
+        <img src="/assets/homeImage.svg" alt="Imagem principal do blog">
+    </div>
+
+    <secion class="content-wrapper flex">
+        <h1 class="title">Olá, seja bem-vindo(a) ao meu blog!</h1>
+        <p class="description">Conheça o poder que as tecnologias podem nos proporcionar.</p>
+        <p class="description">Fique por dentro dos conceitos que circulam pelo mundo dos dev's!</p>
+    </secion>
+</div>
+
+
+<div class="container second flex">
+    <div class="image-wrapper flex">
+        <img src="/assets/BasicsTecWeb.svg" alt="Tecnologias básicas: HTML, CSS e JavaScript">
+    </div>
+
+    <secion class="content-wrapper flex">
+        <h1 class="title">HTML5, CSS e JavaScript</h1>
+        <p class="description">Entenda o poder que essas ferramentas tem juntas.</p>
+        <p class="description">Antes dos frameworks e libs, vem o básico!</p>
+    </secion>
+</div>
+
+<div class="container flex">
+    <div class="image-wrapper flex">
+        <img src="/assets/noteImage.svg" alt="Ferramentas de organização">
+    </div>
+
+    <secion class="content-wrapper flex">
+        <h1 class="title">Utilize ferramentas para gerênciar os seus estudos!</h1>
+        <p class="description">Há um oceano de conhecimentos por vir!</p>
+        <p class="description">É de suma importantância que você se organize.</p>
+    </secion>
+</div>
+
+<div class="container second flex">
+    <div class="image-wrapper flex">
+        <img src="/assets/responsiveWebImage.svg" alt="Site acessível para todos os tamanhos de tela">
+    </div>
+
+    <secion class="content-wrapper flex">
+        <h1 class="title">A importantância de um Webdesign responsivo.</h1>
+        <p class="description">Evite alterações desnecessárias com responsividade!</p>
+        <p class="description">Site acessível para todos os tamanhos de tela.</p>
+    </secion>
+</div>
 
 <%- include('includes/footer.ejs') %>

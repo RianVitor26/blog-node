@@ -1,4 +1,11 @@
+.menu-hamburguer{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
 .navigation-top{
+    display: flex;
     justify-content: space-evenly;
     align-items: center;  
     flex-wrap: wrap; 
@@ -23,15 +30,24 @@ input[type="text"],
 }
 
 .navigation-top-list a:hover{
-    color: var(--navigation-top-link-hover);
+    color: var(--first-color);
 }
 
 input[type="text"]{
     padding: 1vh 1vw;
-    height: 8vh;
+    height: 6vh;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     outline-color: rgba(0, 0, 0, 0.6);
     width: 30vw;
+}
+
+@media (max-width: 644px){
+    .navigation-top{
+        display: none;
+    }
+    .menu-hamburguer{ 
+        display: block;
+    }
 }
 

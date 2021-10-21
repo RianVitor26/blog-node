@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 :root{
-    --background: #f1f8e9;
-    --background-footer: #01579b;
-    --navigation-top-link-hover: #01579b;
+    --background: #fafafa;
+    --first-color: #01579b;
+  
+
 }
 
 *{
