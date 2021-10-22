@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     padding: 20px;
     background: var(--first-color);
+    margin-top: 200px;
 }
 
 .navigation-bot .description, .copyright{

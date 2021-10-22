@@ -16,6 +16,8 @@
     overflow: hidden;
     cursor: pointer;
     transition: all .5s ease;
+    animation: zoomIn;
+    animation-duration: 1s;
 }
 
 .card:hover{
