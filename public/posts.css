@@ -44,7 +44,7 @@
 .card-title{
     font-size: clamp(1rem, 1.8vw, 3rem);
     font-family: sans-serif;
-    color: rgba(0, 0, 0, 0.651);
+    color: rgba(148, 112, 112, 0.651);
 }
 
 @media (max-width: 580px){
