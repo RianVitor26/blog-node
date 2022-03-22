@@ -11,7 +11,6 @@ router.get('/post', (req, res) => {
     res.render("post")
 })
 
-
 router.get('/post/add', (req, res) => {
     res.render("addPosts")
 })

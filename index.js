@@ -17,7 +17,6 @@ app.set('views', 'views')
 
 // Dizendo onde vai estar a parte estática do blog
 app.use(express.static(path.join(__dirname, 'public')))
-app.use(express.static(path.join(__dirname, 'views')))
 
 app.use(router)
 
